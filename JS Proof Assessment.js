@@ -44,7 +44,7 @@ function mintNFT (_name,_haircolor,_age,_mothertongue, _bling) {
 // and print their metadata with console.log()
 function listNFTs () {
  for(let i=0;i< NFTs_container.length; i++){
-    console.log("\nNFT no. :" + (i+1));
+    console.log("\nNFT no. :" + (i+1));                                 // ID No. of my NFTS
     console.log("Name:\t\t\t\t\t" + NFTs_container[i].name);
     console.log("Haircolor:\t\t" + NFTs_container[i].haircolor);
     console.log("Age:\t\t\t\t\t" + NFTs_container[i].age);
@@ -55,7 +55,7 @@ function listNFTs () {
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
- console.log(NFTs_container.length);
+ console.log("\nTotal no. of NFTs minted :" + NFTs_container.length);
 }
 
 // call your functions below this line
